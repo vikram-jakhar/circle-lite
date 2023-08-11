@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+
+}
+.d-flex
+{display: flex;}
+
+.justify-center{
+    justify-content: center;
+}  
+
+.align-center{
+    align-items: center;
+} .vh-10{
+    min-width: 100%;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    
+}
+.mt-20{
+ margin-top: 200px;
+    
+}
+.circle.on {
+    border-color: yellow;
+    background-color: yellow;
+    box-shadow: 0 0 10px 10px yellow;
+    height: 300px;
+    width: 300px;
+}
